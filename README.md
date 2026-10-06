@@ -1,6 +1,6 @@
-# 🌐 GAGANDRISHTI
+# 🌐 CloudLens
 
-*GaganDrishti* represents deep visibility into cloud configurations to identify security risks before they become breaches.
+*CloudLens* represents deep visibility into cloud configurations to identify security risks before they become breaches.
 
 A modernized, preventive cloud security platform engineered to detect, prioritize, and remediate dangerous misconfigurations across your AWS infrastructure.
 
@@ -33,7 +33,7 @@ Please explore the `/docs` directory for granular system details:
 ## 🚦 Getting Started
 
 ### Quick Start (Recommended: Docker Compose)
-GaganDrishti is fully containerized. You can spin up the entire stack (Frontend, Backend, and Redis orchestration) with a single command. 
+CloudLens is fully containerized. You can spin up the entire stack (Frontend, Backend, and Redis orchestration) with a single command. 
 
 Ensure you have [Docker](https://www.docker.com/) installed, then run from the root directory:
 
@@ -70,4 +70,4 @@ If you prefer running processes manually outside of Docker:
    ```
 
 ## 🤝 The Problem & Solution
-A large percentage of cloud security breaches originate from simple infrastructure misconfigurations—like globally exposed `0.0.0.0/0` SSH ports or `AllUsers` bucket ACLs. Gagandrishti bridges the gap between infrastructure deployment and zero-trust validation by continuously auditing read-only AWS blueprints and actively surfacing remediation tactics without risking internal system modification.
+A large percentage of cloud security breaches originate from simple infrastructure misconfigurations—like globally exposed `0.0.0.0/0` SSH ports or `AllUsers` bucket ACLs. CloudLens bridges the gap between infrastructure deployment and zero-trust validation by continuously auditing read-only AWS blueprints and actively surfacing remediation tactics without risking internal system modification.
